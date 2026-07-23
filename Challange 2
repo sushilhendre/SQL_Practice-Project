@@ -1,0 +1,20 @@
+
+-- 1. Update the table popular_databases with the number_of_votes as 32000 for the database_name MySQL 
+
+UPDATE popular_databases
+SET number_of_votes = 32000
+WHERE database_name ='MySQL' ;
+
+
+-- 2. Delete the record for the database_name MongoDB from the table 
+
+DELETE 
+FROM popular_databases
+WHERE database_name = 'MongoDB';
+
+
+-- 3. Select all the data from the table 
+
+SELECT * 
+FROM popular_databases;
+
