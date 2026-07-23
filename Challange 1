@@ -1,0 +1,28 @@
+Write the Code for creating Table on survey for Database and its Votes
+
+
+-- 1. Create the table popular_databases 
+CREATE TABLE popular_databases
+(database_name VARCHAR(50),
+number_of_votes INT
+
+);
+
+-- 2. Populate the table with the data from the survey
+
+INSERT INTO popular_databases
+
+(database_name, number_of_votes)
+
+VALUES
+
+('PostgreSQL' , 34909),
+('MySQL', 31489),
+('SQLite', 23678),
+('MongoDB', 19556),
+('Microsoft SQL Server', 19506);
+
+
+-- 3. Select all the data from the table
+SELECT * 
+FROM popular_databases;
