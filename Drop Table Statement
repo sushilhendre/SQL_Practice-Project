@@ -1,0 +1,9 @@
+-- Demonstrate DROP Table
+
+DROP TABLE population;
+
+SELECT * 
+  FROM population;
+
+
+
