@@ -1,0 +1,10 @@
+Using INSERT statement for inserting new records in the Table 
+
+INSERT INTO population
+
+(country, total_population)
+
+VALUES
+
+('China', 1425671352),
+( 'United States', 339996564)
