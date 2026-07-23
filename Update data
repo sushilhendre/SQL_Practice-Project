@@ -1,0 +1,13 @@
+-- View the existing record
+
+SELECT total_population
+FROM population
+WHERE country = 'United States';
+
+
+Run the update record query and again you may choose to run above query to view record after update
+
+UPDATE population
+SET total_population = 341234567
+WHERE country = 'United States'
+;
