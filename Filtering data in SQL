@@ -1,0 +1,7 @@
+Filtering data using WHERE Clause
+
+
+SELECT total_population
+FROM population
+WHERE country ='China'       -- This set of statement will give you data related to country name in the column 'China' only
+;
