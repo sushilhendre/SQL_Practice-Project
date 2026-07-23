@@ -1,0 +1,7 @@
+-- Creating Table in SQL
+
+CREATE TABLE population  -- Creating a table with name population
+( 
+	country VARCHAR (50),   -- The variable 'country' has VARCHAR as data type
+	total_population INT   -- The variable 'total population' has INT as data typw
+);
