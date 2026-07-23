@@ -1,0 +1,10 @@
+Delete Statement for record deletion from the table population
+
+SELECT * 
+FROM population;
+
+
+DELETE
+FROM population
+WHERE country = 'Russia';  -- If where clause is not added then entire table will be deleted
+
