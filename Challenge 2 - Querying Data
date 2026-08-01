@@ -1,0 +1,13 @@
+Write a SELECT statement to do the following.
+
+Select the most popular database_name from the table popular_databases
+
+Rename the column database_name to the_popular_database in the output
+
+Final Code :
+
+SELECT database_name as the_popular_database 
+FROM popular_databases 
+ORDER BY number_of_votes DESC
+LIMIT 1
+;
