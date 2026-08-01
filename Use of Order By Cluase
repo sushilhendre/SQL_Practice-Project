@@ -15,3 +15,12 @@ ORDER BY country ASC; -- Explicit mentioned ASC
 SELECT *
 FROM population
 ORDER BY country DESC; -- Sorted Descending
+
+
+
+-- Use of Order by on Multiple Columns
+
+SELECT continent, country, total_population
+FROM population 
+ORDER BY continent ASC,
+total_population DESC;
