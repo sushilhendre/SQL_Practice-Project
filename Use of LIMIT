@@ -1,0 +1,11 @@
+--1) include the result set with the columns  country and total_population
+
+--2) include result set to include only the most populated country in Americas. Expecting only one country name with DESC order.
+
+
+
+SELECT country, total_population
+FROM population 
+WHERE continent = 'Americas'
+ORDER BY country DESC
+LIMIT 1;
