@@ -1,0 +1,17 @@
+
+
+SELECT *
+FROM population
+ORDER BY country; --By default ASC
+
+
+
+SELECT *
+FROM population
+ORDER BY country ASC; -- Explicit mentioned ASC
+
+
+
+SELECT *
+FROM population
+ORDER BY country DESC; -- Sorted Descending
