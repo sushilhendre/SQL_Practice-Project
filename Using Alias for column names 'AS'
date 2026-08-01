@@ -1,0 +1,7 @@
+Using Alias for column names and use of 'AS'
+
+
+SELECT UPPER(country) AS country_name,
+       total_population/1000000 AS total_population_millions
+FROM population;
+
