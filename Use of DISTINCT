@@ -1,0 +1,5 @@
+-- DISTINCT is used to fetch the record with unique value for the entire record
+
+SELECT DISTINCT 
+        country, total_population
+FROM population;
