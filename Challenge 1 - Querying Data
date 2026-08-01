@@ -1,0 +1,15 @@
+Your challenge
+
+Write a SELECT statement to do the following.
+
+Select the columns database_name and number_of_votes from the table popular_databases
+
+Rename the column number_of_votes to number_of_responses in the output
+
+Remove the duplicate records from the output
+
+
+Final Code :
+
+SELECT DISTINCT database_name, number_of_votes as number_of_responses
+FROM popular_databases;
