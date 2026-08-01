@@ -1,0 +1,5 @@
+-- Select statement for population to be converted into Millions
+
+SELECT UPPER(country), 
+       total_population/1000000
+from population;
